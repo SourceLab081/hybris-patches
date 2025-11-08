@@ -1,5 +1,6 @@
 #!/bin/bash
 
+pwd
 rm $ANDROID_ROOT/packages/apps/Etar/external/ex/framesequence/samples/FrameSequenceSamples/Android.bp
 rm $ANDROID_ROOT/packages/apps/Etar/external/ex/common/tests/Android.bp
 rm $ANDROID_ROOT/packages/apps/Etar/external/ex/framesequence/jni/Android.bp
