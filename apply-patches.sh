@@ -1,6 +1,10 @@
 #!/bin/bash
 
 pwd
+if [ ! -d $ANDROID_ROOT/external/chromium-webview ]; then
+    wget https://github.com/SourceLab081/uploadz/releases/download/v0.0.2/chromium.zip;unzip -o chromium.zip -d $ANDROID_ROOT/external/chromium-webview/;rm chromium.zip 
+fi  
+
 rm $ANDROID_ROOT/packages/apps/Etar/external/ex/framesequence/samples/FrameSequenceSamples/Android.bp
 rm $ANDROID_ROOT/packages/apps/Etar/external/ex/common/tests/Android.bp
 rm $ANDROID_ROOT/packages/apps/Etar/external/ex/framesequence/jni/Android.bp
