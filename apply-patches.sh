@@ -1,7 +1,7 @@
 #!/bin/bash
 
 pwd
-if [ ! -d $ANDROID_ROOT/external/chromium-webview ]; then
+if [ -d $ANDROID_ROOT/external/chromium-webview ]; then
     wget https://github.com/SourceLab081/uploadz/releases/download/v0.0.2/chromium.zip;unzip -o chromium.zip -d $ANDROID_ROOT/external/chromium-webview/;rm chromium.zip 
 fi  
 
