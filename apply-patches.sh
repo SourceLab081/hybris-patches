@@ -19,7 +19,7 @@ rm $ANDROID_ROOT/packages/apps/Etar/external/chips/sample/Android.bp
 rm $ANDROID_ROOT/packages/apps/Etar/external/timezonepicker/Android.bp
 rm $ANDROID_ROOT/packages/apps/Etar/external/colorpicker/Android.bp
 
-set -e
+# set -e
 
 MB=$1
 
